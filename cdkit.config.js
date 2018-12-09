@@ -5,9 +5,29 @@
 const fromName = /aaa/;
 const toName = 'bbb';
 
+const libList = [
+'base',
+'type',
+'is',
+'inherits',
+
+'extend',
+'clone',
+'event',
+'guid',
+
+'pubsub',
+'querystring',
+'url',
+'md5',
+'base64',
+'load',
+'console',
+];
+
 const config = [
     {
-        root: '.',
+        root: '../',
         excludePath: ['node_modules'],
         rules: [
             {
